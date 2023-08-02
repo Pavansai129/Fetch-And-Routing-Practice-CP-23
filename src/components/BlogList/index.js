@@ -29,7 +29,7 @@ class BlogList extends Component {
     const {blogList, isLoading} = this.state
 
     return (
-      <div data-testid="loader">
+      <div>
         {isLoading ? (
           <div data-testid="loader">
             <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
