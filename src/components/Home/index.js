@@ -6,9 +6,6 @@ import BlogList from '../BlogList'
 
 const Home = () => (
   <div className="home-container">
-    <div data-testid="loader">
-      <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
-    </div>
     <UserInfo />
     <BlogList />
   </div>
