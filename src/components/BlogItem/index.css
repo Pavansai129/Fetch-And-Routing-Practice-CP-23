@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.blog-image {
+  height: 200px;
+  width: 200px;
+}
+.blog-avatar {
+  height: 50px;
+  width: 50px;
+}
+.blog-item {
+  display: flex;
+  flex-direction: row;
+}
+.blog-author {
+  display: flex;
+  flex-direction: row;
+}
